@@ -2,7 +2,7 @@ import { useTranslation } from 'react-i18next'
 import logoCompleto from '../../assets/LOGO_MS_orange.png'
 import { socialLinks } from '../../data/socialLinks'
 
-function Footer({ dark = false }) {
+function Footer({ dark = true }) {
     const { t } = useTranslation()
     const year = new Date().getFullYear()
 
